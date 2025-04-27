@@ -20,7 +20,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Implemented **Builder** pattern for structured construction of complex `SupportTicket` and `PaymentTransaction` objects.
 - Implemented **Prototype** pattern for cloning `DistressAlert` and `SupportTicket` instances.
 - Implemented **Singleton** pattern for `AcademicDatabase` connection class.
-  ![image](https://github.com/user-attachments/assets/88e2e823-b08c-4057-8031-e02b35db484e)
+-  ![image](https://github.com/user-attachments/assets/88e2e823-b08c-4057-8031-e02b35db484e)
 
 
 ### 🧪 Tests
@@ -37,7 +37,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 - Enhanced `WhatsAppIntegration` to include better exception handling and retry logic.
 - Updated `Administrator` class — created issues for method implementation.
-![image](https://github.com/user-attachments/assets/82a04fb8-c3af-43ae-b0f8-b65341a9fb07)
+- ![image](https://github.com/user-attachments/assets/82a04fb8-c3af-43ae-b0f8-b65341a9fb07)
 
 ---
 
