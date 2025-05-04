@@ -1,6 +1,6 @@
 # /repositories/ResponseRepository.py
 
-from repository import  Repository
+from repositories import  Repository
 from typing import Optional, List
 from Response import Response
 
