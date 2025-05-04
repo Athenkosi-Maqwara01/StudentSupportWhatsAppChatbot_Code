@@ -59,3 +59,16 @@ Design patterns were used heavily to ensure flexibility, maintainability, and sc
 - Database backend instead of in-memory simulation.
 
 ---
+# Repositories
+
+## Justification
+
+We designed a **generic `Repository<T, ID>` interface** to avoid code duplication across entity-specific repositories.
+
+- **Generic types (`T` and `ID`)** allow us to define one interface for multiple entities like `Query`, `Response`, `Notification`, etc.
+- Each entity-specific repository (e.g., `QueryRepository`, `ResponseRepository`) simply extends `Repository` without rewriting CRUD method signatures.
+- This makes the architecture **scalable** and **easy to maintain**.
+
+If a new entity (e.g., `SupportTicket`) needs persistence support, we simply create a `SupportTicketRepository` extending the base `Repository` — no duplication!
+
+---
